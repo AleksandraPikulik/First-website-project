@@ -1,0 +1,183 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+/* header */
+.header-img {
+	position: relative;
+	height: 300px;
+	background-image: url('/first-course/photo/planet.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.header-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+.header-text h1 {
+	padding-bottom: 18px;
+	letter-spacing: 3px;
+}
+
+.header-bg {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(23, 43, 58, 0.616);
+}
+
+/* nawigacja */
+.nav {
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	line-height: 50px;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+.nav-item a {
+	padding: 0 50px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: color 0.4s;
+}
+
+.nav-item a:hover {
+	color: rgb(74, 177, 255);
+}
+
+/*  main */
+main {
+	margin: 50px auto;
+	width: 1200px;
+}
+
+h2 {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.about-us-box {
+	margin: 40px 0;
+	position: relative;
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	border-top-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	overflow: hidden;
+}
+
+.first {
+	background-image: url('/first-course/photo/animal.jpg');
+}
+.second {
+	background-image: url('/first-course/photo/app.jpg');
+}
+
+.third {
+	background-image: url('/first-course/photo/hands-phone.jpg');
+}
+.about-us-bg {
+	position: absolute;
+	bottom: 0;
+	height: 45%;
+	width: 100%;
+	background-color: rgba(47, 47, 47, 0.798);
+}
+.about-us-text {
+	position: absolute;
+	bottom: 20px;
+	padding: 20px 40px;
+	text-align: center;
+	color: #ddd;
+}
+
+.about-us-text h3 {
+	text-transform: uppercase;
+}
+
+/* footer */
+
+footer {
+	height: 80px;
+	line-height: 80px;
+	background-color: #333;
+	color: #ddd;
+	text-align: center;
+	font-size: 20px;
+}
+
+.icon-box {
+	margin-left: 20px;
+}
+
+.icon-box a {
+	margin: 0 5px;
+	color: #ddd;
+	font-size: 30px;
+	transition: color 0.5s;
+}
+
+.icon-box a:hover {
+	color: rgb(74, 177, 255);
+	cursor: pointer;
+}
+
+
+.list-box {
+	margin: 0 auto;
+	width: 130px;
+	font-size: 25px;
+}
+
+.table-price {
+	margin: 50px auto;
+	width: 1000px;
+	height: 200px;
+	text-align: center;
+	box-shadow: 0 0 40px rgba(51, 51, 51, 0.444);
+}
+
+.table-price thead {
+	padding: 10px;
+	background-color: rgba(3, 81, 109, 0.52);
+}
+
+th,
+td {
+	padding: 15px;
+	font-size: 26px;
+}
+.table-price tr {
+	background-color: rgba(0, 42, 73, 0.479);
+}
+
+.foot-row {
+	background-color: rgba(0, 43, 73, 0.649);
+}
+
+.table-contact {
+	margin: 50px auto;
+	width: 500px;
+	height: 200px;
+	text-align: left;
+}
